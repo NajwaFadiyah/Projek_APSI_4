@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+html, body{
+    background-color: #000000;
+}
+
+
+
+/*index.html*/
+header h1 {
+    font-family: forte;
+    float: left;
+    padding: 15px 0px;
+    color: #fff;
+    position: absolute;
+}
+
+
+/*Setting.blade.php*/
+.banner{
+    background-color: #14b8b8;
+    height: 200px;
+    border-radius: 0px 0px 25px 25px;
+    text-align: center;
+    color: #fff;
+    padding-top: 50px;
+}
+.banner img{
+    height: 100px;
+    width: 100px;
+    border-radius: 500px;
+    align-items: right;
+    border: 5px solid #fff;
+}
+.tampilan{
+    text-align: center;
+    color: #14b8b8;
+    margin-top: 30px;
+    align-content: center;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+}
+.tampilan ul{
+    list-style-image: none;
+    float: left;
+    margin-left: 35px;
+}
+.tampilan ul li{
+    text-align: left;
+    line-height: 25px;
+}
+.tampilan ul li img{
+    height: 40px;
+    width: 40px;
+    border: 3px solid #fff;
+    position: relative;
+}
+.keluar{
+    text-align: center;
+    color: #14b8b8;
+    margin-top: 30px;
+    align-content: center;
+ }
+.keluar ul{
+    float: left;
+    margin-left: 35px;
+}
+.keluar ul li{
+    text-align: left;
+}
+.keluar ul li img{
+    height: 40px;
+    width: 40px;
+    border: 3px solid #fff;
+    position: relative;
+}
+/*Footer*/
+footer{
+    padding: 50px;
+    color: #fff;
+    text-align: center;
+    position: end;
+}
